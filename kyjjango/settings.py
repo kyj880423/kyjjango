@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -40,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages', #메세지 관리
     'django.contrib.staticfiles', #정적 파일 처리
     'hello',
+    'index',
+    'balance',
 ]
 
 MIDDLEWARE = [
